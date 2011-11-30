@@ -1,0 +1,34 @@
+#sdk: "/usr/lib/ruby/gems/1.8/gems/rhodes-3.2.2.beta"
+sdkversion: 3.2.1
+name: FunditMobile
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+wmsdk: Windows Mobile 6 Professional SDK (ARMV4I)
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: com.rhomobile.funditmobile
+  BundleURLScheme: funditmobile
+wp:
+  productid: ea7b8d40-fd3d-012e-9bf9-3caec5cb3c94
+symbian:
+  uid: 3907590331
+android:
+  version: 2.3.3
+  emulator: rhoAndroid233
+extensions: ["json", "rholang", "net-http", "thread", "rhoxml", "timeout", "uri", "hmac", "digest", "digest-sha1"]
+
+capabilities:
+  - gps
+  - pim
+  - camera
+  - vibrate
+  - phone
+  - bluetooth
+  - calendar
